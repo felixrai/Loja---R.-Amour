@@ -1,0 +1,61 @@
+
+/* Logo */
+.logo-circular {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+#faixa-frete {
+    background-color: #963D60;
+    color: #FCEAF1;
+}
+
+/* Cartões das categorias */
+#edicao .categoria-card {
+    background-color: #FCEAF1;
+    border: 1px solid #E8B5C8;
+    border-radius: 12px;
+    color: #963D60;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Conteúdo dos cartões */
+#edicao .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75px;
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Efeito ao passar o mouse */
+#edicao .categoria-card:hover {
+    background-color: #F8D5E2;
+    border-color: #D98AA8;
+    transform: translateY(-3px);
+}
+
+/* Botões da loja */
+.btn-secondary {
+    background-color: #C94F7C;
+    border-color: #C94F7C;
+}
+
+.btn-secondary:hover {
+    background-color: #963D60;
+    border-color: #963D60;
+}
+
+
+footer {
+    background-color: #FCEAF1;
+    color: #963D60;
+}
+nav {
+   background-color: #FCEAF1; 
+}
